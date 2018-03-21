@@ -9,6 +9,29 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<!-- Header -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">MovieInfo</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Search Box -->
+		<div class="container">
+			<div class="jumbotron">
+				<h3 class="text-center">Search for Any Movie</h3>
+				<form id="searchForm">
+					<input type="text" class="form-control" id="movieName" placeholder="Search Movie ...">
+				</form>
+			</div>
+		</div>
+
+		<!-- Show Movies-->
+		<div class="container">
+			<div id="movies" class="row"></div>
+		</div>
 
 		<!-- jQurey -->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
